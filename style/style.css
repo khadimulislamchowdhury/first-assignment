@@ -1,3 +1,261 @@
+ /* universal */
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+   /* share code */
+
+  .container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.green-text {
+    color: #469165;
+}
+
+
+.section-heading {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.icon {
+    background-color: #F95555;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#solution,
+#call-section,
+footer {
+    margin-top: 120px;
+}
+
+
+  /* font-family*/
+  .font-family{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+ /* nav-section start */
+ #nav-section{
+    max-width:1600px;
+    display: flex;
+
+ }
+
+ #nav-section .nav-image{
+    max-width:139px;
+    max-height: 60px;
+    margin:16px 0 16px 120px;
+ }
+ #nav-section ul{
+    display: flex;
+    align-items: center;
+    gap:32px;
+    margin:34px auto;
+      
+ }
+ #nav-section ul li{
+    list-style: none;
+  
+ }
+ #nav-section ul li a{
+    text-decoration: none;
+    color:#000000;
+ }
+ #nav-section .nav-btn button {
+    padding:12px 16px;
+    background-color: #469165;
+    margin:24px 120px 24px 0;
+    font-size: 18px;
+    font-weight: 600px;
+    color:#FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+  
+ }
+
+   
+#hero-section{
+  
+   background-image: url("../assets/hero-bg.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#hero-section .hero-container{
+   padding:115px 120px 180px 120px;
+   border:1px solid black;
+
+}
+.hero-content{
+   text-align: center;
+
+}
+.circle-dot{
+   background-color: #FFFFFF;
+   padding:8px 12px;
+   color:#469165;
+   border-radius: 1000px;
+   font-size: 16px;
+   font-weight: 500;
+   opacity: 100%;
+
+}
+.heading h1{
+   text-align: center;
+   color:#FFFFFF;
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 84px;
+   opacity: 100%;
+   margin-top: 16px;
+}
+.heading h1 .green{
+   color:#30B868;
+}
+.heading p{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #FFFFFF;
+   text-align: center;
+   padding-top: 16px;
+}
+.button{
+   text-align: center;
+   margin-top:32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.hero-btn{
+   display:flex;
+   padding:12px 16px;
+   background-color: #469165;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 5px;
+   border:none;
+   color:#FFFFFF;
+   cursor: pointer;
+   align-items: center;
+   gap:10px;
+}
+
+.hero-button2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 13.5px 16px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+    /* ?---------problem section style start-------- */
+#problem .problem-container {
+    padding-top: 50px;
+}
+
+#problem .problem-container .problem-heading p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+#problem .problem-container .card-box {
+    display: flex;
+    gap: 24px;
+}
+
+.problem-container .card-box .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow:  0 0 8px 0 rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+}
+
+.problem-container .card-box .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.problem-container .card-box .card p{
+    font-size:16px;
+    line-height:20px ;
+    color:#627382 ;
+}
+/* !---------problem section style end-------- */
+
+/*  ?---------solution section start---------- */
+
+#solution .solution-box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-box .solution-content .solution-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.solution-box .solution-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.solution-box .solution-content .solution-info {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution-box .solution-content .solution-list li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+/*  ?---------solution section end------- */
+
  /* nav-section start */
  #nav-section{
     max-width:1600px;
@@ -108,17 +366,11 @@
    border-radius: 5px;
    border:none;
    color:#FFFFFF;
-   cursor: pointer;
+   cursor: pointer; 
    align-items: center;
    gap:10px;
-}
-.hero-btn:hover{
-   border: 1px solid white;
-    background: none;
-    transition: 1s;
-    transition: 1s;
-    transform: translate(-14px);
-}
+ }
+
 .hero-button2{
     font-size: 16px;
     font-weight: 600;
@@ -132,268 +384,107 @@
     gap: 10px;
     cursor: pointer;
 }
-.hero-button2:hover{
-    border: none;
-    background-color: #469165;
-    transition: 1s;
-    transform: translate(14px);
-}
 
   /* hero section is end  */
-    /* ?---------problem section style start-------- */
-#problem .problem-container {
-    padding-top: 50px;
+  
+
+/*  ?---------solution section start---------- */
+
+#solution .solution-box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-#problem .problem-container .problem-heading p {
+.solution-box .solution-content .solution-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.solution-box .solution-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.solution-box .solution-content .solution-info {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    margin-bottom: 44px;
-    text-align: center;
+    margin-bottom: 40px;
 }
 
-#problem .problem-container .card-box {
+.solution-box .solution-content .solution-list li {
+    list-style: none;
     display: flex;
-    gap: 24px;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #001931;
 }
 
-.problem-container .card-box .card {
+/*  ?---------solution section end------- */
+/*  !----------call to action area style start------- */
+
+#call-section .call-container {
+    padding: 120px;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+#call-section .call-container .section-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#call-section .call-container .cta-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+#call-section .call-container .cta-btn {
     text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow:  0 0 8px 0 rgba(0, 0, 0, 0.06);
-    background: rgba(255, 255, 255, 1);
 }
 
-.problem-container .card-box .card h4 {
-    font-size: 24px;
+#call-section .call-container .cta-btn button {
+    font-size: 16px;
     font-weight: 600;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-.problem-container .card-box .card p{
-    font-size:16px;
-    line-height:20px ;
-    color:#627382 ;
-}
-/* !---------problem section style end-------- */
-/*  ?---------solution section start---------- */
-
-#solution .solution-box {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    gap: 60px;
-}
-
-.solution-box .solution-content .solution-text {
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #469165;
-    font-weight: 500;
+    gap: 10px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
-.solution-box .solution-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 16px;
+.call-container .cta-btn button:hover {
+    transition: 1s ease;
+    transform: scale(1.2);
+    background: none;
 }
 
-.solution-box .solution-content .solution-info {
+#call-section .call-container .cta-info {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    margin-bottom: 40px;
 }
 
-.solution-box .solution-content .solution-list li {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-/*  ?---------solution section end------- */
-/*  ?---------solution section start---------- */
-
-#solution .solution-box {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.solution-box .solution-content .solution-text {
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #469165;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content .solution-info {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-bottom: 40px;
-}
-
-.solution-box .solution-content .solution-list li {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-/*  ?---------solution section end------- */
-/*  ?---------solution section start---------- */
-
-#solution .solution-box {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.solution-box .solution-content .solution-text {
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #469165;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content .solution-info {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-bottom: 40px;
-}
-
-.solution-box .solution-content .solution-list li {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-/*  ?---------solution section end------- */
-/*  ?---------solution section start---------- */
-
-#solution .solution-box {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.solution-box .solution-content .solution-text {
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #469165;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content .solution-info {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-bottom: 40px;
-}
-
-.solution-box .solution-content .solution-list li {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-/*  ?---------solution section end------- */
-/*  ?---------solution section start---------- */
-
-#solution .solution-box {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.solution-box .solution-content .solution-text {
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #469165;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.solution-box .solution-content .solution-info {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-bottom: 40px;
-}
-
-.solution-box .solution-content .solution-list li {
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    color: #001931;
-}
-
-/*  ?---------solution section end------- */
+/* !----------call to action area style end------- */
 /* !--------footer area style start------- */
 footer {
     background-color: #001931;
